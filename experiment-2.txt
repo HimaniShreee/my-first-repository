@@ -1,0 +1,11 @@
+cd ~/git-lab/expl
+git branch
+git branch features-branch
+git branch
+git checkout feature-branch
+nano feature.txt
+git add feature.txt
+git commit -m "Add feature,txt with login module"
+git checkout master
+ls
+git merge feature-branch
